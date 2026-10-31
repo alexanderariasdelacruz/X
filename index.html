@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY RUN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+    <canvas id="canvas" width="900" height="500"></canvas>
+
+    <div class="score">
+        PUNTOS: <span id="score">0</span>
+    </div>
+
+    <div class="panel" id="menu">
+        <h1>SKY RUN</h1>
+        <p>Haz clic para subir.</p>
+        <p>Deja de pulsar para bajar.</p>
+        <button id="start">JUGAR</button>
+    </div>
+
+    <div class="panel hidden" id="gameOver">
+        <h1>GAME OVER</h1>
+        <p>Puntos: <span id="finalScore">0</span></p>
+        <button id="restart">REINTENTAR</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
